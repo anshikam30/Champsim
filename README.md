@@ -1,4 +1,4 @@
-# CA Assignment 1 Ques 2
+ChampSim
 
 This is part of Assignment 1 Q2 of course E0-243 Computer architecture offered at CSA department at Indian Institute of Science.
 
