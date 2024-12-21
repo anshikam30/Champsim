@@ -1,6 +1,6 @@
 ## ChampSim
 
-This is part of Assignment 1 Q2 of course E0-243 Computer architecture offered at CSA department at Indian Institute of Science.
+This is part of Assignment 1 Q2 of course E0-243 High performance Computer Architecture offered at CSA department at Indian Institute of Science.
 
 In this assignment we have evaluated different branch predictors (BiModal, G-Share, Perceptron, Tage and Hybrid) with ChampSim simulator.
 
