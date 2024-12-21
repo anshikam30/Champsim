@@ -1,11 +1,11 @@
-##ChampSim
+## ChampSim
 
 This is part of Assignment 1 Q2 of course E0-243 Computer architecture offered at CSA department at Indian Institute of Science.
 
-In this assignment we evaluate different branch predictors with ChampSim simulator.
+In this assignment we have evaluated different branch predictors (BiModal, G-Share, Perceptron, Tage and Hybrid) with ChampSim simulator.
 
 We have only modified the files in branch folder (added Tage and Hybrid Predictors).
-ChampSim installation guilde can be found in ChampSim's README.md file. Follow the instructions on ChampSim Github link and set it up and the replace the Champsim's branch folder with the given branch folder, and then run.
+ChampSim installation guilde can be found in ChampSim's README.md file at `https://github.com/ChampSim/ChampSim/tree/master`. Follow the instructions on ChampSim Github link and set it up and the replace the Champsim's branch folder with the given branch folder, and then run.
 
 
 
