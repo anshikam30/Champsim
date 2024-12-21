@@ -1,0 +1,19 @@
+config4 : 
+
+#define NUM_BANKS 2     
+#define BIMODAL_SIZE 65536      // Increased Bimodal Size
+#define LEN_BIMODAL 2
+#define LEN_GLOBAL 13            // Increased Global History Length
+#define LEN_TAG 10                // Increased tag length
+#define LEN_COUNTS 3
+#define MIN_HISTORY_LEN 5
+#define MAX_HISTORY_LEN 48       
+
+#define BIMODAL_INDEX(pc) (pc % BIMODAL_SIZE)
+
+
+// i = 0 ... NUM_BANKS - 1
+// geo_i = (int) (MIN_LEN * ((MAX_LEN / MIN_LEN) ^ (i / (NUM_BANKS - 1))) + 0.5)
+// const uint8_t GEOMETRICS[NUM_BANKS] = {130, 76, 44, 26, 15, 9, 5};
+// const int  GEOMETRICS[NUM_BANKS] = {131,44,15,5};
+const int  GEOMETRICS[NUM_BANKS] = {131,44};

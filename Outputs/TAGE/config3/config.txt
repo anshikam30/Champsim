@@ -1,0 +1,12 @@
+config3: 
+
+#define NUM_BANKS 4      
+#define BIMODAL_SIZE 65536      // Increased Bimodal Size
+#define LEN_BIMODAL 2
+#define LEN_GLOBAL 12            // Increased Global History Length
+#define LEN_TAG 9                // Kept at 9 bits
+#define LEN_COUNTS 3
+#define MIN_HISTORY_LEN 5
+#define MAX_HISTORY_LEN 48       // Increased Max History Length
+
+const int  GEOMETRICS[NUM_BANKS] = {131,44,15,5};

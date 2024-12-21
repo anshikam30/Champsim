@@ -1,0 +1,12 @@
+config4: 
+
+#define NUM_BANKS 4
+#define BIMODAL_SIZE 40960  // Increase size for better accuracy
+#define LEN_BIMODAL 2
+#define LEN_GLOBAL 9        // Increased global history length
+#define LEN_TAG 10          // Increase tag length
+#define LEN_COUNTS 3
+#define MIN_HISTORY_LEN 5
+#define MAX_HISTORY_LEN 32  // Keep a smaller max history length for space
+
+const int  GEOM4&ETRICS[NUM_BANKS] = {131,44,15,5};
